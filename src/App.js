@@ -16,6 +16,7 @@ import Task14 from './components/task14'
 import Task15 from './components/task15'
 import Task16 from './components/task16'
 import Task17 from './components/task17'
+import Task18 from './components/task18'
 
 
 // Images
@@ -44,10 +45,17 @@ function App() {
       <Task15  isLoggedIn={true}/> <hr  />
       <Task16  isSuccess={false}/> <hr  />
       <Task17
-        name="AmroAlWageei"
-        email="amroalwageei@gmail.com"
-        avatar={UserProfileImage}
+      name="AmroAlWageei"
+      email="amroalwageei@gmail.com"
+      avatar={UserProfileImage}
       /> <hr  />
+      <Task18  title="My Website"/> <hr  />
+
+
+
+
+
+
     </div>
   );
 }
