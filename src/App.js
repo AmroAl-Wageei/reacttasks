@@ -13,8 +13,17 @@ import Task11 from './components/task11'
 import Task12 from './components/task12'
 import Task13 from './components/task13'
 import Task14 from './components/task14'
+import Task15 from './components/task15'
+import Task16 from './components/task16'
+import Task17 from './components/task17'
+
+
+// Images
+import UserProfileImage from './components/images/amro.jpeg'
+
 
 function App() {
+  // const userIsLoggedIn = true;
   return (
     <div>
 
@@ -32,6 +41,13 @@ function App() {
       <Task12 /> <hr  />
       <Task13 /> <hr  />
       <Task14 /> <hr  />
+      <Task15  isLoggedIn={true}/> <hr  />
+      <Task16  isSuccess={false}/> <hr  />
+      <Task17
+        name="AmroAlWageei"
+        email="amroalwageei@gmail.com"
+        avatar={UserProfileImage}
+      /> <hr  />
     </div>
   );
 }
