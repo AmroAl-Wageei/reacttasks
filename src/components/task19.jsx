@@ -12,6 +12,7 @@ class Header extends Component {
             <li><a href={this.props.servicesLink}>Services</a></li>
           </ul>
         </nav>
+        <h2>Welcome to My Website!</h2>
       </header>
     );
   }
