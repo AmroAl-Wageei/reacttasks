@@ -26,12 +26,15 @@ import './App.css';
 // IMAGE
 // import UserProfileImage from './components/images/amro.jpeg'
 
-// #### ROUTER 1
+// ############ ROUTER 1 ############
 // import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import Routrr from './router/route1'
+// import Routrr from './router/route1'
 // import Home from './router/pages/home'
 // import About from './router/pages/about'
 // import Contact from './router/pages/contact'
+
+// ############ All Forms ############
+import AllForms from './components/froms/allForms';
 
 function App() {
   // const userIsLoggedIn = true;
@@ -46,7 +49,8 @@ function App() {
     <div>
 
 
-    <Routrr  />
+    {/* <Routrr  /> */}
+    <AllForms  />
 
 
 

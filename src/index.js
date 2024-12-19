@@ -8,6 +8,7 @@ import About from './router/pages/about';
 import Contact from './router/pages/contact';
 import ErrorPage from './router/errorpage';
 
+import AllForms from './components/froms/allForms';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/c",
     element: <Contact />,
+  },
+  {
+    path: "/f",
+    element: <AllForms />,
   },
 ]);
 
